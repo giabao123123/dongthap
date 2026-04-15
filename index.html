@@ -29,18 +29,15 @@
     <a href="#hero" class="scroll-top-button">
       <i class="fas fa-chevron-up"></i>
     </a>
-
     <aside id="backToTop">
       <a href="#hero" aria-label="Lên đầu trang">
         <span class="arrow arrow-1"></span>
         <span class="arrow arrow-2"></span>
       </a>
     </aside>
-
     <aside class="box w3-right neon-box2" style="margin-top: 2%">
       <p class="text">Chào mừng đến với tỉnh Đồng Tháp!</p>
     </aside>
-
     <header class="w3-top">
       <nav class="w3-bar w3-white w3-padding w3-card">
         <a href="#home" class="w3-bar-item neon-box">Đồng Tháp</a>
@@ -82,31 +79,6 @@
           </li>
         </ul>
 
-        <script>
-          const menuLinks = document.querySelectorAll("#menu-list a");
-          const menuToggle = document.getElementById("menu-toggle");
-          menuLinks.forEach((link) => {
-            link.addEventListener("click", () => {
-              if (window.innerWidth <= 768) {
-                menuToggle.checked = false;
-              }
-            });
-          });
-        </script>
-        <script>
-          const audio = document.getElementById("bgMusic");
-          const btn = document.getElementById("toggleBtn");
-          btn.addEventListener("click", () => {
-            if (audio.paused) {
-              audio.play();
-              btn.textContent = "⏸ Tắt nhạc";
-            } else {
-              audio.pause();
-              btn.textContent = "▶ Phát nhạc";
-            }
-          });
-        </script>
-
         <nav
           style="
             background: linear-gradient(180deg, #ff9800, #ff5722);
@@ -146,21 +118,7 @@
           </section>
         </nav>
       </nav>
-
-      <script>
-        const menuScroll = document.querySelector(".menu-scroll");
-        const btnLeft = document.querySelector(".left-btn");
-        const btnRight = document.querySelector(".right-btn");
-        const step = 200;
-        btnRight.addEventListener("click", () => {
-          menuScroll.scrollLeft += step;
-        });
-        btnLeft.addEventListener("click", () => {
-          menuScroll.scrollLeft -= step;
-        });
-      </script>
     </header>
-
     <main class="w3-content" style="max-width: 1100px">
       <section class="w3-row w3-padding-16 w3-animate-left" id="about">
         <header>
@@ -178,7 +136,6 @@
             Thời vua Gia Long, Sa Đéc thuộc huyện Vĩnh An, phủ Định Viễn, trấn
             Vĩnh Thanh.
           </p>
-
           <p>
             <mark><strong>Cải cách hành chính thời Minh Mạng</strong></mark
             ><br />
@@ -188,7 +145,6 @@
             phân chia này tồn tại cho đến khi Pháp chiếm Định Tường năm
             <u>1861</u> và An Giang năm <u>1867</u>.
           </p>
-
           <p>
             <mark><strong>Thời Pháp thuộc</strong></mark
             ><br />
@@ -197,7 +153,6 @@
             thành lập. Đến năm <u>1876</u>, đổi thành hạt tham biện Sa Đéc, trực
             thuộc khu hành chính Vĩnh Long.
           </p>
-
           <p>
             <mark><strong>Thành lập tỉnh Sa Đéc</strong></mark
             ><br />
@@ -206,7 +161,6 @@
             số tỉnh là <u>182.924 người</u>, đến năm <u>1920</u> tăng lên
             <u>203.588 người</u>.
           </p>
-
           <p>
             <mark><strong>Giai đoạn 1913–1924</strong></mark
             ><br />
@@ -214,7 +168,6 @@
             và sáp nhập vào tỉnh Vĩnh Long. Sau năm 1924, tỉnh Sa Đéc được tái
             lập với ba quận là Châu Thành, Cao Lãnh và Lai Vung.
           </p>
-
           <p>
             <mark><strong>Giai đoạn sau Cách mạng tháng Tám</strong></mark
             ><br />
@@ -224,7 +177,6 @@
             Quốc gia Việt Nam và Việt Nam Cộng hòa công nhận. Đến cuối năm
             <u>1954</u>, tỉnh Sa Đéc được tái lập.
           </p>
-
           <p>
             <mark><strong>Thời Việt Nam Cộng hòa</strong></mark
             ><br />
@@ -233,7 +185,6 @@
             các quận Cao Lãnh, Mỹ An, Thanh Bình, Hồng Ngự, Kiến Văn và Đồng
             Tiến.
           </p>
-
           <p>
             <mark><strong>Tái lập tỉnh Sa Đéc năm 1966</strong></mark
             ><br />
@@ -241,14 +192,12 @@
             Long, có diện tích khoảng <u>900 km²</u>. Tỉnh gồm bốn quận: Châu
             Thành, Lấp Vò, Đức Tôn và Đức Thành, tỉnh lỵ đặt tại Sa Đéc.
           </p>
-
           <p>
             <mark><strong>Thành lập tỉnh Đồng Tháp</strong></mark
             ><br />
             Tháng <u>2/1976</u>, hai tỉnh Kiến Phong và Sa Đéc được hợp nhất
             thành tỉnh Đồng Tháp. Tỉnh lỵ ban đầu đặt tại thị xã Sa Đéc.
           </p>
-
           <p>
             <mark><strong>Đồng Tháp từ 1976 đến nay</strong></mark
             ><br />
@@ -257,7 +206,6 @@
             <u>2013</u>, thành phố Hồng Ngự năm <u>2020</u>. Hiện tỉnh có
             <u>3 thành phố</u> và <u>9 huyện</u>.
           </p>
-
           <p>
             <mark><strong>Sáp nhập tỉnh Tiền Giang</strong></mark
             ><br />
@@ -270,12 +218,11 @@
             <a
               href="https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Th%C3%A1p"
               target="_blank"
-              >wiki Đồng Tháp</a
+              >Wikipedia Đồng Tháp</a
             >
             )
           </p>
         </article>
-
         <figure class="w3-center">
           <img
             src="https://th.bing.com/th/id/R.52f91298aa1e71ef7ab5cb97c23394ed?rik=ZN8DS8%2fpuB0grw&pid=ImgRaw&r=0"
@@ -294,7 +241,6 @@
         </figure>
       </section>
       <hr />
-
       <section class="w3-row-padding w3-padding-16 w3-content" id="menu">
         <header>
           <h1 class="w3-padding-16" style="color: red; font-size: 50px">
@@ -335,7 +281,6 @@
               (Tiền Giang cũ), khoảng <u>10°18′B, 106°47′Đ</u>
             </li>
           </ul>
-
           <p>
             Lưu ý: Các điểm cực hiện chưa được công bố tọa độ chính thức; các số
             liệu trên chỉ mang tính ước lượng, dựa trên bản đồ hành chính tỉnh
@@ -361,7 +306,6 @@
             >
           </p>
         </article>
-
         <figure class="w3-center">
           <img
             src="https://apidinhgiaav.vinhwebapp.com/public/storage/posts/348/image/dong-thap-sau-sap-nhap_6866412e471db.jpg"
@@ -381,7 +325,6 @@
         </figure>
       </section>
       <hr />
-
       <section
         class="w3-row-padding w3-padding-16 w3-content"
         id="DIEUKIENTUNHIEN"
@@ -398,7 +341,6 @@
             <u>2 vùng địa hình lớn</u> là vùng phía bắc sông Tiền và vùng phía
             nam sông Tiền.
           </p>
-
           <p>
             <mark><strong>Đất đai</strong></mark
             ><br />
@@ -406,7 +348,6 @@
             thấp, gây khó khăn cho xây dựng nhưng rất phù hợp cho sản xuất lương
             thực.
           </p>
-
           <p>
             <mark><strong>Các nhóm đất chính</strong></mark
             ><br />
@@ -414,7 +355,6 @@
             <u>59,06%</u> diện tích tự nhiên; đất phèn chiếm <u>25,99%</u>; đất
             xám chiếm <u>8,67%</u>; đất cát chiếm <u>0,04%</u>.
           </p>
-
           <p>
             <mark><strong>Tài nguyên rừng</strong></mark
             ><br />
@@ -422,7 +362,6 @@
             thái rừng và đất ngập nước có nhiều loài động, thực vật như rắn,
             rùa, cá, tôm, trăn, cò, cồng cộc, đặc biệt là sếu cổ trụi.
           </p>
-
           <p>
             <mark><strong>Tài nguyên khoáng sản</strong></mark
             ><br />
@@ -432,7 +371,6 @@
             thế kỷ <u>IV</u>, phân bố ở huyện Tam Nông và Tháp Mười với trữ
             lượng khoảng <u>2 triệu m³</u>.
           </p>
-
           <p>
             <mark><strong>Nguồn nước</strong></mark
             ><br />
@@ -441,7 +379,6 @@
             gồm sông Tiền, sông Sở Hạ, sông Sở Thượng, sông Cái Tàu Hạ, Cái Tàu
             Thượng, sông Sa Đéc và mạng lưới kênh rạch chằng chịt.
           </p>
-
           <p>
             <mark><strong>Nước ngầm</strong></mark
             ><br />
@@ -453,13 +390,12 @@
         <p style="font-size: 15px">
           (nguồn thông tin:
           <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Th%C3%A1p"
-            >wiki-Đồng Tháp</a
+            >Wikipedia Đồng Tháp</a
           >
           )
         </p>
       </section>
       <hr />
-
       <section
         class="w3-container w3-padding-16 table-responsive w3-content"
         style="overflow-x: auto"
@@ -478,7 +414,6 @@
             <u>2 mùa rõ rệt</u>: mùa mưa từ <u>tháng 5 đến tháng 11</u>, mùa khô
             từ <u>tháng 12 đến tháng 4 năm sau</u>.
           </p>
-
           <p>
             <mark><strong>Chỉ số khí hậu</strong></mark
             ><br />
@@ -488,7 +423,6 @@
             trung vào mùa mưa.
           </p>
         </article>
-
         <table
           style="
             width: 100%;
@@ -729,7 +663,7 @@
           <a
             href="https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Th%C3%A1p"
             target="_blank"
-            >wiki-Đồng Tháp</a
+            >Wikipedia Đồng Tháp</a
           >)
         </p>
       </section>
@@ -738,6 +672,10 @@
         <h1 class="w3-padding-16" style="color: red; font-size: 50px">
           DỰ BÁO THỜI TIẾT TRONG TỈNH
         </h1>
+        <p>
+          ⚠️ Dữ liệu thời tiết hiện vẫn theo đơn vị hành chính cũ — chưa cập
+          nhật sau sáp nhập tỉnh.
+        </p>
         <div
           style="
             max-width: 760px;
@@ -761,7 +699,6 @@
           >
             Gõ tên xã / phường / thị trấn để xem dự báo thời tiết
           </p>
-
           <div
             style="position: relative; max-width: 440px; margin: 0 auto 22px"
           >
@@ -814,7 +751,6 @@
               "
             ></div>
           </div>
-
           <div
             id="tt-box"
             style="
@@ -851,7 +787,6 @@
             </div>
           </div>
         </div>
-
         <script>
           var TT_AREAS = [
             {
@@ -909,7 +844,6 @@
               parent: "Tỉnh Tiền Giang cũ",
               widget: `<!--Begin thoitiet.app widget --><iframe src="https://thoitiet247.vn/widget/embed/tien-giang/my-tho?style=2&day=7&td=%23ffffff&ntd=%231c84ee&mvb=%23848484&mv=%231c84ee&mdk=%23dddddd&htd=true" id="widgeturl" width="100%" height="550px" scrolling="no" frameborder="0" allowtransparency="true" style="border:none;overflow:hidden;"></iframe><!-- End thoitiet.app widget -->`,
             },
-
             {
               name: "Thành phố Cao Lãnh",
               parent: "Tỉnh Đồng Tháp cũ",
@@ -978,9 +912,7 @@
               .replace(/[\u0300-\u036f]/g, "")
               .replace(/đ/g, "d");
           }
-
           var ttFiltered = TT_AREAS.slice();
-
           function ttFilter() {
             var q = ttNorm(document.getElementById("tt-input").value.trim());
             ttFiltered = q
@@ -991,13 +923,11 @@
             ttRender();
             document.getElementById("tt-drop").style.display = "block";
           }
-
           function ttShow() {
             ttFiltered = TT_AREAS.slice();
             ttRender();
             document.getElementById("tt-drop").style.display = "block";
           }
-
           function ttRender() {
             var dd = document.getElementById("tt-drop");
             if (!ttFiltered.length) {
@@ -1028,7 +958,6 @@
               })
               .join("");
           }
-
           function ttSelect(idx) {
             var a = TT_AREAS[idx];
             document.getElementById("tt-input").value = a.name;
@@ -1037,13 +966,10 @@
             if (a.parent) {
               locationTitle += " (" + a.parent + ")";
             }
-
             document.getElementById("tt-name").textContent = locationTitle;
             document.getElementById("tt-box").style.display = "block";
-
             var wrap = document.getElementById("tt-widget-wrap");
             var noEmbed = document.getElementById("tt-noembed");
-
             if (a.widget && a.widget.trim()) {
               wrap.innerHTML = a.widget;
               wrap.style.display = "block";
@@ -1053,17 +979,37 @@
               wrap.style.display = "none";
               noEmbed.style.display = "block";
             }
-
             document
               .getElementById("tt-box")
               .scrollIntoView({ behavior: "smooth", block: "start" });
           }
-
           document.addEventListener("click", function (e) {
             var inp = document.getElementById("tt-input");
             var drop = document.getElementById("tt-drop");
             if (drop && e.target !== inp && !drop.contains(e.target))
               drop.style.display = "none";
+          });
+          function toggleMenu() {
+            document.getElementById("navMenu").classList.toggle("w3-hide");
+          }
+          const menuLinks = document.querySelectorAll("#menu-list a");
+          const menuToggle = document.getElementById("menu-toggle");
+          menuLinks.forEach((link) => {
+            link.addEventListener("click", () => {
+              if (window.innerWidth <= 768) {
+                menuToggle.checked = false;
+              }
+            });
+          });
+          const menuScroll = document.querySelector(".menu-scroll");
+          const btnLeft = document.querySelector(".left-btn");
+          const btnRight = document.querySelector(".right-btn");
+          const step = 200;
+          btnRight.addEventListener("click", () => {
+            menuScroll.scrollLeft += step;
+          });
+          btnLeft.addEventListener("click", () => {
+            menuScroll.scrollLeft -= step;
           });
         </script>
       </section>
@@ -1243,7 +1189,6 @@
             tăng tự nhiên dân số phân theo địa phương giảm <u>0,41 ‰</u> và tỷ
             lệ đô thị hóa đến năm 2022 đạt <u>38%</u>.
           </p>
-
           <p>
             <strong><mark>Dân tộc</mark></strong> toàn tỉnh có
             <u>21 dân tộc</u> cùng người nước ngoài sinh sống, trong đó dân tộc
@@ -1251,7 +1196,6 @@
             <u>1.855 người</u>, người Khmer <u>657 người</u>, còn lại là các dân
             tộc khác như Chăm, Thái, Mường, Tày.
           </p>
-
           <p>
             <strong><mark>Tôn giáo</mark></strong> có 12 tôn giáo với tổng số
             <u>336.598 người</u>. Nhiều nhất là Phật giáo Hòa Hảo
@@ -1263,7 +1207,6 @@
             Minh Sư Đạo <u>9 người</u>, Minh Lý Đạo <u>6 người</u> và Baha'i
             giáo <u>1 người</u>.
           </p>
-
           <p>
             Theo dữ liệu Sáp nhập tỉnh, thành Việt Nam 2025, Đồng Tháp có diện
             tích: 5.939 km², xếp thứ 28; dân số: 4.370.046 người, xếp thứ 7;
@@ -1279,7 +1222,6 @@
         </article>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="VANHOA">
         <header>
           <h1 class="w3-center" style="font-size: 50px">VĂN HOÁ, LỄ HỘI</h1>
@@ -1294,7 +1236,6 @@
             hội và con người hiền hòa, nghĩa tình gắn bó mật thiết với thiên
             nhiên.
           </p>
-
           <h2 style="font-size: 40px">
             <strong><mark>LỄ HỘI:</mark></strong>
           </h2>
@@ -1749,7 +1690,6 @@
         </article>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="DITICH">
         <header>
           <h1 class="w3-center" style="font-size: 50px">
@@ -2467,7 +2407,6 @@
         </article>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="GIAODUC">
         <header>
           <h1 class="w3-center" style="font-size: 50px">GIÁO DỤC</h1>
@@ -2494,13 +2433,12 @@
         <p style="font-size: 15px">
           (nguồn thông tin:
           <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BB%93ng_Th%C3%A1p"
-            >wiki-Đồng Tháp</a
+            >Wikipedia Đồng Tháp</a
           >
           )
         </p>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="KINHTE">
         <br />
         <header>
@@ -2524,7 +2462,6 @@
             hàng hóa và dịch vụ ước đạt <u>30.468 tỷ đồng</u> (bằng
             <u>70,3%</u> kế hoạch).
           </p>
-
           <p>
             Cả năm 2012, diện tích gieo trồng lúa ước tính <u>487.623 ha</u>,
             sản lượng lúa <u>3.036 ngàn tấn</u> thấp hơn kế hoạch, trong khi sản
@@ -2536,7 +2473,6 @@
             nhập khẩu ước <u>695 triệu USD</u>, chủ yếu là xăng dầu với khối
             lượng <u>633 ngàn tấn</u> và trị giá <u>640 triệu USD</u>.
           </p>
-
           <p>
             Đồng Tháp có đàn gia cầm lớn, với <u>899 hộ nuôi vịt đẻ</u> tổng
             <u>650.512 con</u> và <u>152 hộ nuôi vịt thịt</u> tổng
@@ -2548,7 +2484,6 @@
             10 đạt <u>34.375 tỷ đồng</u>, khối lượng hàng hóa vận chuyển ước
             <u>2.415 ngàn tấn</u> (tăng <u>3,99%</u> so với cùng kỳ 2011).
           </p>
-
           <p>
             Kim ngạch xuất khẩu tháng 10 ước đạt <u>74.584 ngàn USD</u>, nhập
             khẩu ước <u>60.555 ngàn USD</u>. Không tính hàng tạm nhập tái xuất,
@@ -2558,7 +2493,6 @@
             <u>78,24%</u> kế hoạch). Tốc độ tăng trưởng GDP năm 2012 ước đạt
             <u>9,66%</u>, GDP bình quân đầu người <u>24,8 triệu đồng</u>.
           </p>
-
           <p>
             <strong
               ><mark>Kinh tế – xã hội tỉnh Đồng Tháp năm 2019</mark></strong
@@ -2575,7 +2509,6 @@
             <u>2,78%</u>.
           </p>
         </article>
-
         <figure
           style="width: 80%; margin: auto"
           class="w3-center chart-container"
@@ -2586,7 +2519,6 @@
           </figcaption>
           <canvas id="grdpChartDongThap" class="w3-center"></canvas>
         </figure>
-
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script>
           const ctx = document
@@ -2664,7 +2596,6 @@
         </p>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="AMTHUC">
         <header>
           <h1 class="w3-center" style="font-size: 50px">ẨM THỰC</h1>
@@ -3693,7 +3624,6 @@
         </ol>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="DULICH">
         <header>
           <h1 class="w3-center" style="font-size: 50px">DU LỊCH</h1>
@@ -4451,7 +4381,6 @@
         </ol>
       </section>
       <hr />
-
       <section class="w3-row w3-padding-16 w3-content" id="tiemnang">
         <header>
           <h1 class="w3-center" style="font-size: 50px">
@@ -4475,7 +4404,6 @@
             dữ liệu thời tiết, giám sát môi trường và truy xuất nguồn gốc, nhằm
             nâng cao hiệu quả sản xuất và giá trị sản phẩm.
           </p>
-
           <p>
             <strong><mark>Mô hình hợp tác và khởi nghiệp</mark></strong>
           </p>
@@ -4489,7 +4417,6 @@
             thanh niên và nông dân trẻ khởi nghiệp từ nông sản bản địa như sen,
             quýt hồng, cá tra sấy.
           </p>
-
           <p>
             <strong><mark>Đầu tư hạ tầng nông thôn</mark></strong>
           </p>
@@ -4503,7 +4430,6 @@
             được phân phối qua sàn thương mại điện tử và siêu thị, kết nối chuỗi
             giá trị từ sản xuất đến chế biến và xuất khẩu.
           </p>
-
           <p>
             <strong><mark>Lợi ích từ sáp nhập</mark></strong>
           </p>
@@ -4517,7 +4443,6 @@
             tới xây dựng hình ảnh Đồng Tháp mới Xanh – Thông minh – Sáng tạo –
             Giữ gìn bản sắc văn hóa.
           </p>
-
           <p>
             <strong><mark>Mục tiêu phát triển giai đoạn mới</mark></strong>
           </p>
@@ -4533,7 +4458,6 @@
             tỉnh cũng như kết nối liên tỉnh, liên vùng để thúc đẩy giao dịch
             nông sản và du lịch sinh thái, văn hóa sông nước.
           </p>
-
           <p>
             <strong><mark>Kết luận</mark></strong>
           </p>
@@ -4561,14 +4485,8 @@
       </section>
       <hr />
     </main>
-
     <footer class="w3-center w3-light-grey w3-padding-32">
       <p>HẾT!</p>
     </footer>
-    <script>
-      function toggleMenu() {
-        document.getElementById("navMenu").classList.toggle("w3-hide");
-      }
-    </script>
   </body>
 </html>
